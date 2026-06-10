@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+.ipynb_checkpoints/
+# NOTE: dqn_weights.pth and train_history.json ARE committed on purpose,
+# so the deployed dashboard loads instantly instead of training on startup.

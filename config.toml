@@ -1,0 +1,12 @@
+# Forces a consistent dark theme everywhere the app runs (local, cloud, and
+# headless screenshots), so the custom cards and charts always look as intended.
+[theme]
+base = "dark"
+primaryColor = "#F9C80E"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#161B26"
+textColor = "#FAFAFA"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false

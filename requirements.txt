@@ -1,0 +1,11 @@
+# Pinned for a reproducible Streamlit Community Cloud build.
+# The extra index serves the lightweight CPU-only PyTorch wheels
+# (avoids the large CUDA download and keeps the deploy fast & reliable).
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+streamlit==1.39.0
+torch==2.2.2+cpu
+numpy==1.26.4
+pandas==2.2.2
+plotly==5.24.1
+ortools==9.10.4067
